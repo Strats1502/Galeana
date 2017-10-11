@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_nombre_idioma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/seleccionar_idioma_porcentajes_nombre_idioma"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Conversación" />
+
+        <TextView
+            android:id="@+id/tv_porcentaje_conversacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="0%" />
+
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seek_bar_conversacion"
+        style="@style/AccentSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:max="100" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Lectura" />
+
+        <TextView
+            android:id="@+id/tv_porcentaje_lectura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="0%" />
+
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seek_bar_lectura"
+        style="@style/AccentSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:max="100" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Escritura" />
+
+        <TextView
+            android:id="@+id/tv_porcentaje_escritura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="0%" />
+
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seek_bar_escritura"
+        style="@style/AccentSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:max="100" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btn_aceptar_idiomas_porcentajes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:background="@drawable/bordered_button_blue"
+            android:gravity="center"
+            android:text="@string/btn_seleccionar_idiomas_aceptar"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_cancelar_idiomas_porcentajes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:background="@drawable/bordered_button_blue"
+            android:gravity="center"
+            android:text="@string/btn_seleccionar_idiomas_cancelar"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "706757253499",
+    "firebase_url": "https://guanajoven-174119.firebaseio.com",
+    "project_id": "guanajoven-174119",
+    "storage_bucket": "guanajoven-174119.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706757253499:android:cc739f1a36108a5a",
+        "android_client_info": {
+          "package_name": "mx.gob.galeana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706757253499-f4jrrqmm9njk7o7u7ph9sqd8ldcd80ke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHDnSpC4e1VwrYYjQeb1sAQrr_d2U0zPY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

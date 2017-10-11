@@ -1,0 +1,458 @@
+<resources>
+    <string name="app_name">Galeana</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings related to usuario -->
+    <string name="usuario">Inicia Sesión</string>
+    <string name="mensaje_bienvenida">El municipio de Galeana se localiza en la zona noroeste del estado de Chihuahua, en una región fundamentalmente desértica, tiene una extensión total de 1,529 kilómetros cuadrados y una altitud promedio de 1,430 metros sobre el nivel del mar; limita al norte con el municipio de Nuevo Casas Grandes</string>
+
+    <string name="home">Home</string>
+    <string name="bienvenida">GALEANA NUEVO LEÓN</string>
+    <string name="comenzar">Comenzar</string>
+    <string name="registrar">Registrar</string>
+    <string name="copyright">Copyright © \nGuanajuato 2017.</string>
+    <string name="inicio">Inicio</string>
+    <string name="pass">Contraseña</string>
+    <string name="ejercicio">Ejercicio</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="nuevousuario_diagnostico">Registra tu Usuario</string>
+    <string name="hidratacion_diaria">Hidratación diaria</string>
+    <string name="ejercicio_diario">Ejercicio Diario</string>
+    <string name="agua">Agua</string>
+    <string name="recuperarpass"><u>Recuperar contraseña</u></string>
+    <string name="recuperarpass2">Recuperar contraseña</string>
+    <string name="mi_perfil">Modificar perfil</string>
+    <string name="registrar_agua">Registrar agua</string>
+    <string name="colaboradores">Colaboradores</string>
+    <string name="redes_sociales">Redes sociales</string>
+
+
+    <string name="hint_user">Usuario</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_passwordconfirmar">Confirmar Contraseña</string>
+    <!--<string name="facebook_app_id">203591490120675</string>-->
+    <string name="facebook_app_id">1547755481949405</string>
+    <string name="fb_login_protocol_scheme">fb1547755481949405</string>
+
+    <string name="api_key">AIzaSyBqcgu3wsKmTDKHQjpMhhj-gie-eLR_ELI</string>
+
+
+    <string name="datos_usuario">Datos de usuario</string>
+    <string name="title_activity_segunda">SegundaActivity</string>
+
+    <string name="meta_hidratacion_diaria">Meta de hidratación diaria</string>
+    <string name="registro_agua">Registro de agua</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="registro_ejercicio">Registro de ejercicio</string>
+    <string name="actividades">Actividades</string>
+    <string name="calendario">Calendario de eventos</string>
+    <string name="alarmas">Alarmas de activación</string>
+    <string name="ver_reportes">Ver reportes</string>
+    <string name="general">General</string>
+    <string name="directorio_code">Instalaciones deportivas</string>
+    <string name="inicio_sesion">Inicio de sesión</string>
+    <string name="registro">Registro</string>
+    <string name="reportes">Reportes</string>
+    <string name="login_google">Google</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="recuperacion_codigo">Introduce el código de recuperación que ha sido enviado a tu correo.</string>
+    <string name="nuevo_password">Nueva contraseña</string>
+    <string name="confirmar_password">Confirmar contraseña</string>
+    <string name="reestablecer_pass">Reestablecer contraseña</string>
+    <string name="reenviar_codigo">Volver a enviar código</string>
+    <string name="enviar_codigo">Enviar código</string>
+    <string name="olvidaste">¿Olvidaste tu contraseña?</string>
+    <string name="colaborador1">Ing. Felipe Uriel Infante Martínez</string>
+    <string name="lider">Líder de desarrollo en Android</string>
+    <string name="correo1">ur13l.infante@gmail.com</string>
+    <string name="colaborador2">José María Cruz Parada</string>
+    <string name="desarrollador">Desarrollador en Android</string>
+    <string name="correo2">chema-cruz@live.com</string>
+    <string name="presion">¿Te conoces con presión elevada?</string>
+    <string name="glucosa">¿Te conoces con glucosa elevada?</string>
+    <string name="actividad">¿Realizas alguna actividad física?</string>
+    <string name="peso_actual">Introduce tu peso actual</string>
+    <string name="estatura_actual">Introduce tu estatura actual</string>
+    <string name="estado_animo">Estado de ánimo</string>
+    <string name="kg">kg</string>
+    <string name="m">m</string>
+    <string name="introduce">Responde a las siguientes preguntas</string>
+    <string name="datos_complementarios">Datos complementarios</string>
+    <string name="retos">Retos</string>
+    <string name="eventos">Eventos</string>
+    <string name="politica"><u>Política de privacidad</u></string>
+    <string name="eliminar">Eliminar</string>
+    <string name="selecciona_accion">Selecciona la acción.</string>
+    <string name="no_alarmas">No hay alarmas registradas</string>
+    <string name="mar">M</string>
+    <string name="lun">L</string>
+    <string name="dom">D</string>
+    <string name="sab">S</string>
+    <string name="vie">V</string>
+    <string name="jue">J</string>
+    <string name="mie">M</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="title_activity_video_activacion">Video de activación</string>
+    <string name="empty">No hay eventos registrados.</string>
+    <string name="emptyDir">No se encontró ningún resultado.</string>
+    <string name="mensaje_aviso_de_privacidad">
+
+
+&lt;b>¿Para qué fines utilizaremos sus datos personales?&lt;/b>&lt;br>
+
+Los datos personales que recabamos de usted, los utilizaremos para las siguientes finalidades
+
+que son necesarias para el servicio que solicita: &lt;br>
+
+● Para verificar y confirmar su identidad y situación patrimonial&lt;br>
+
+● Para administrar y operar los servicios que contrata con la Comisión&lt;br>
+
+● Mercadotecnia o publicitaria&lt;br>
+
+● Prospección comercial&lt;br>&lt;br>
+
+&lt;b>¿Qué datos personales utilizaremos para estos fines?&lt;/b>&lt;br>
+
+Para llevar a cabo las finalidades descritas en el presente aviso de privacidad, utilizaremos los
+
+siguientes datos personales:&lt;br>
+
+● Datos de identificación&lt;br>
+
+● Datos de contacto&lt;br>
+
+● Datos sobre características físicas&lt;br>
+
+● Datos laborales&lt;br>
+
+● Datos académicos&lt;br>
+
+● Datos migratorios&lt;br>
+
+● Datos patrimoniales y/o financieros&lt;br>&lt;br>
+
+&lt;b>¿Cómo puede acceder, rectificar o cancelar sus datos
+
+personales, u oponerse a su uso?&lt;/b>&lt;br>
+
+Usted tiene derecho a conocer qué datos personales tenemos de usted, para qué los utilizamos
+
+y las condiciones del uso que les damos (Acceso). Asimismo, es su derecho solicitar la
+
+corrección de su información personal en caso de que esté desactualizada, sea inexacta o
+
+incompleta (Rectificación); que la eliminemos de nuestros registros o bases de datos cuando
+
+considere que la misma no está siendo utilizada adecuadamente (Cancelación); así como
+
+oponerse al uso de sus datos personales para fines específicos (Oposición). Estos derechos se
+
+conocen como derechos ARCO.&lt;br>
+
+Para el ejercicio de cualquiera de los derechos ARCO, usted deberá presentar la solicitud
+
+respectiva a través del siguiente medio:&lt;br>
+
+● mediante escrito ante la oficina de la Unidad de Acceso, ubicada en Paseo de la Presa
+
+número 170, Zona Centro, Guanajuato, Guanajuato, C.P. 36000.&lt;br>
+
+Para conocer el procedimiento y requisitos para el ejercicio de los derechos ARCO, ponemos a
+
+su disposición el siguiente medio:&lt;br>
+
+● mediante escrito&lt;br>
+
+Los datos de contacto de la persona o departamento de datos personales, que está a cargo de
+
+dar trámite a las solicitudes de derechos ARCO, son los siguientes:&lt;br>
+
+a. Nombre de la persona o departamento de datos personales: Unidad de Acceso a la
+
+Información&lt;br>
+
+b. Domicilio: calle San Sebastián 78, colonia Zona Centro, ciudad Guanajuato., municipio o
+
+delegación Guanajuato, c.p. 36000., en la entidad de Guanajuato, país México&lt;br>
+
+c. Correo electrónico: unidadacceso@guanajuato.gob.mx&lt;br>
+
+Usted puede revocar su consentimiento para el uso
+
+de sus datos personales&lt;br>
+
+Usted puede revocar el consentimiento que, en su caso, nos haya otorgado para el tratamiento
+
+de sus datos personales. Sin embargo, es importante que tenga en cuenta que no en todos los
+
+casos podremos atender su solicitud o concluir el uso de forma inmediata, ya que es posible
+
+que por alguna obligación legal requiramos seguir tratando sus datos personales. Asimismo,
+
+usted deberá considerar que para ciertos fines, la revocación de su consentimiento implicará
+
+que no le podamos seguir prestando el servicio que nos solicitó, o la conclusión de su relación
+
+con nosotros.&lt;br>
+
+Para revocar su consentimiento deberá presentar su solicitud a través del siguiente medio:&lt;br>
+
+● Por escrito&lt;br>
+
+Para conocer el procedimiento y requisitos para la revocación del consentimiento, ponemos a
+
+su disposición el siguiente medio:&lt;br>
+
+● Por escrito dirigido al titular de la Comisión.&lt;br>&lt;br>
+
+
+&lt;b>¿Cómo puede limitar el uso o divulgación de su
+
+información personal?&lt;/b>&lt;br>
+
+Con objeto de que usted pueda limitar el uso y divulgación de su información personal, le
+
+ofrecemos los siguientes medios:&lt;br>
+
+● Por escrito&lt;br>&lt;br>
+
+&lt;b>¿Cómo puede conocer los cambios en este aviso de
+
+privacidad?&lt;/b>&lt;br>
+
+El presente aviso de privacidad puede sufrir modificaciones, cambios o actualizaciones
+
+derivadas de nuevos requerimientos legales; de nuestras propias necesidades por los
+
+productos o servicios que ofrecemos; de nuestras prácticas de privacidad; de cambios en
+
+nuestro modelo de negocio, o por otras causas.&lt;br>
+
+Nos comprometemos a mantenerlo informado sobre los cambios que pueda sufrir el presente
+
+aviso de privacidad, a través de:&lt;br>
+
+● Por medio escrito.&lt;br>
+
+El procedimiento a través del cual se llevarán a cabo las notificaciones sobre cambios o
+
+actualizaciones al presente aviso de privacidad es el siguiente:&lt;br>
+
+● Solicitud por escrito.&lt;br>
+
+Su consentimiento para el tratamiento de sus datos
+
+personales&lt;br>
+
+Consiento que mis datos personales sean tratados de conformidad con los términos y
+
+condiciones informados en el presente aviso de privacidad.&lt;br>
+
+
+    </string>
+    <string name="detener">Detener</string>
+    <string name="ejercicio30">Ejercicio</string>
+    <string name="agua2">Agua</string>
+    <string name="colaborador3">Ing. Juan José Camacho Luna</string>
+    <string name="lider_proy">Líder de proyecto</string>
+    <string name="correo3">jose.camacho@inquality.com.mx</string>
+    <string name="colaborador4">Ing. Mario Alberto Negrete Rodríguez</string>
+    <string name="lider_ios">Líder de desarrollo en iOS</string>
+    <string name="correo4">mario_rguezz@yahoo.com.mx</string>
+    <string name="colaborador5">Oscar Barrera Casillas</string>
+    <string name="desarrollador_ios">Desarrollador en iOS</string>
+    <string name="correo5">obc993@gmail.com</string>
+    <string name="colaboradores_code">Colaboradores CODE</string>
+    <string name="actualizar_datos">Actualizar Datos</string>
+    <string name="itl">Instituto Tecnológico de León</string>
+    <string name="code">CODE</string>
+    <string name="peso">Peso</string>
+    <string name="estatura">Estatura</string>
+    <string name="imc">Índice de masa corporal (IMC)</string>
+    <string name="leyenda_imc">*El IMC ​debe confirmarse ​con un especialista o en las instalaciones de la CODE ya que no se consideran valores de músculo y grasa. Tampoco aplica para menores de edad.</string>
+    <string name="empty_reporte">No se encontraron registros.</string>
+    <string name="leyenda_ejercicio">
+        Registra aquí el tiempo de activación por día.\n
+        ​La meta son 150 minutos a la semana(mínimo)​\n
+        Lista de Actividades calculada para una persona de 70 Kg aproximadamente.\n
+        Los datos mostrados pueden varias dependiendo de los factores y físicos y metabólicos de la persona.\n
+        Datos tomados del Libro Alimentación y Nutrición de Francisco Grande Covian.</string>
+
+    <string name="leyenda_hidratacion">
+        Registra aquí tu consumo de agua diario ​en la búsqueda de una mejor salud para ti.
+    </string>
+
+    <string name="leyenda_calendario">Registra tu​s actividades físicas en nuestro calendario y enterate de los eventos​ deportivos​de la CODE</string>
+    <string name="lesion">¿Te encuentras lesionado?</string>
+
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="continuar">Continuar</string>
+    <string name="slide1">Esto es una sección de ayuda, aquí se coloca un mensaje referente a alguna pantalla específica y se muestra su contenido.</string>
+    <string name="slide2">Contiene una Agenda donde podrás consultar los Eventos deportivos que CODE prepara para ti, además de poder recibir Notificaciones tipo Push a tu celular.</string>
+    <string name="slide3">Nos permite registrar y sumar las actividades físicas y consumo de agua durante el día.</string>
+    <string name="slide4">Consultar un Reporte de los resultados obtenidos día a día.</string>
+    <string name="slide5">Registrar Alarmas que te permitiran iniciar una rutina de activación física.</string>
+    <string name="slide6">Conocer la ubicación de las Instalaciones deportivas de CODE.</string>
+    <string name="historial_notificaciones">Historial de notificaciones</string>
+    <string name="aviso_privacidad"><u>Política de privacidad</u></string>
+    <string name="aviso_privacidad2"><u>Al dar click en Registrar indica que estás aceptando la política de privacidad</u></string>
+    <string name="slide7">Ideal para registrar tus horarios de activación física</string>
+    <string name="slide8">Recibirás tips nutricionales para mejorar tus hábitos alimenticios y de salud</string>
+    <string name="slide9">Contacto permanente con nuestro sitio web</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="code1">Dirección de Planeación y Desarrollo</string>
+    <string name="correo6">sistemas.code@guanajuato.gob.mx</string>
+    <string name="correo8">jcelayao@guanajuato.gob.mx</string>
+    <string name="code3">Dirección de Cultura Física</string>
+    <string name="correo7">culturafisica.code@guanajuato.gob.mx</string>
+    <string name="code2">Dirección de Investigación y Medicina del Deporte</string>
+    <string name="convocatorias">Convocatorias</string>
+    <string name="mis_eventos">Mis eventos</string>
+    <string name="instalaciones">Instalaciones</string>
+    <string name="chat">Chat</string>
+    <string name="registrar_ejercicio">W</string>
+    <string name="ubicacion">Parece que te encuentras cerca de \"...\"</string>
+    <string name="checkin">Hacer check-in</string>
+    <string name="mas_convocatorias">Más convocatorias</string>
+    <string name="facebook">Facebook</string>
+    <string name="codigo_postal">Código postal</string>
+    <string name="curp">CURP</string>
+    <string name="nombre">Nombre</string>
+    <string name="ap_paterno">Apellido paterno</string>
+    <string name="ap_materno">Apellido materno</string>
+    <string name="genero">Género</string>
+    <string name="estado_nacimiento">Estado de nacimiento</string>
+    <string name="cambiar_imagen">Agrega una imagen</string>
+    <string name="ingresa_datos">Ingresa los siguientes datos:</string>
+    <string name="codigo_guanajoven">Código Guanajoven</string>
+    <string name="id_guanajoven">ID Galeana</string>
+    <string name="checkin_texto">Check-in</string>
+    <string name="social">Redes sociales</string>
+    <string name="promociones">Promociones</string>
+    <string name="necesitamos">Por favor, introduce tu correo,te haremos llegar las instrucciones para restaurar tu contraseña.</string>
+    <string name="datos_comp">Dinos algo sobre ti</string>
+    <string name="ocupacion">Ocupación</string>
+    <string name="estado_civil">Estado civil</string>
+    <string name="nivel_academico">Nivel académico</string>
+    <string name="pasatiempo_favorito">Pasatiempo favorito</string>
+    <string name="guardar">Guardar</string>
+    <string name="enviado">Se ha enviado un enlace a tu correo con las instrucciones para reestablecer la contraseña</string>
+    <string name="correo_enviado">Correo enviado</string>
+    <string name="error">Error</string>
+    <string name="hubo_error">Hubo un error al intentar recuperar tu contraseña</string>
+    <string name="espera">Espera un momento</string>
+    <string name="verificando">Verificando dirección de correo electrónico.</string>
+    <string name="correo_de_usuario">Correo de usuario</string>
+    <string name="nombre_cg">Nombre de usuario</string>
+    <string name="genero_cg">Genero</string>
+    <string name="fecha_de_nacimiento">Fecha de nacimiento</string>
+    <string name="curp_cg">CURP</string>
+    <string name="c_digo_postal">Código Postal</string>
+    <string name="estado">Estado</string>
+    <string name="btn_quiero_mas_informacion">Quiero mas información</string>
+    <string name="empty_regiones">No hay regiones registradas</string>
+    <string name="regiones">Regiones</string>
+    <string name="no_hay_convocatorias">No se encontraron documentos</string>
+    <string name="no_documentos">No se encontraron documentos</string>
+    <string name="registro_agua_title">Registro de Agua</string>
+    <string name="registro_ejercicio_title">Registro de ejercicio</string>
+    <string name="estado_residencia">Estado de residencia</string>
+    <string name="email">Email</string>
+    <string name="empty_eventos">No se encontraron eventos</string>
+    <string name="municipio">Municipio</string>
+    <string name="nivel_estudios">Último nivel de estudios</string>
+    <string name="confirm_programa_gobierno">¿Eres beneficiario de algún programa de gobierno?</string>
+    <string name="de_que_tipo">¿De qué tipo?</string>
+    <string name="trabajas">¿Trabajas?</string>
+    <string name="confirm_pueblo_indigena">¿Eres de algún pueblo originario o comunidad indígena?</string>
+    <string name="de_cual">¿De cuál?</string>
+    <string name="confirm_capacidad_diferente">¿Presentas alguna capacidad diferente?</string>
+    <string name="idiomas_adicionales">Idiomas que dominas adicionales al español</string>
+    <string name="premios">¿Has obtenido premios o distinciones?</string>
+    <string name="menciona_cuales">Menciona cuál(es)</string>
+    <string name="proyectos_sociales">¿Participas en algún proyecto social que beneficie a tu comunidad?</string>
+    <string name="sueldo_proyectos_sociales">¿Recibes sueldo o apoyo económico por esto?</string>
+
+    <!--Strings fragments conocenos-->
+    <string name="conocenos_titulo">Conocenos</string>
+    <string name="conocenos_que_hacemos">¿Qué hacemos?</string>
+    <string name="conocenos_titulo_descripcion">Descripción</string>
+    <string name="conocenos_titulo_mision">Misión</string>
+    <string name="conocenos_titulo_vision">Visión</string>
+    <string name="conocenos_titulo_valores">Valores</string>
+    <string name="conocenos_descripcion">En GUANAJOVEN fomentamos la creación y el desarrollo del proyecto de vida de los jóvenes guanajuatenses. Trabajamos para que los apoyos del Gobierno del Estado dirigidos al sector joven de la población lleguen de manera correcta a cada uno de ellos.</string>
+    <string name="conocenos_mision">Somos la instancia de Gobierno del Estado rectora en el tema de juventud, generadora de programas y politícas publicas, orientada a elevar la calidad de vida de los jóvenes Guanajuatenses.</string>
+    <string name="conocenos_vision">En Guanajuato tenemos jóvenes con una mejor calidad de vida, integrados en una comunidad global, que participan de manera solidaria y comprometida en el desarrollo integral de su entorno.</string>
+    <string name="conocenos_valores">Solidaridad\n
+                                     Integridad\n
+                                     Respeto\n
+                                     Responsabilidad\n
+                                     Creatividad\n
+                                     Humildad</string>
+    <string name="conocenos_titulo_logros_estadisticas">Logros y estadísticas</string>
+    <string name="logro1">• GUANAJUATO el estado de la República Mexicana más beneficiado con recurso económico por el IMJUVE (Federación).</string>
+    <string name="logro2">• En 2016 el Lic. Miguel Márquez Márquez fue reconocido como "El Gobernador de los Jóvenes" por la YABT.</string>
+    <string name="logro3">• Reconocimiento a nivel nacional por el IMJUVE como "Mejor Operatividad en Centros Poder Joven".</string>
+    <string name="logro4">• Logra GUANAJOVEN el GUINNESS WORLD RECORDS por "Concentración de mayor número de catrines y catrinas en 2016".</string>
+
+    <string name="conocenos_enlaces">Enlaces</string>
+    <string name="conocenos_lineas_de_accion"><u>Líneas de acción</u></string>
+    <string name="conocenos_diagnostico_juvenil"><u>Diagnóstico juvenil</u></string>
+    <string name="conocenos_encuesta_juventud"><u>Encuesta de juventud</u></string>
+    <string name="conocenos_directorio"><u>Directorio</u></string>
+
+
+    <string name="puntuaje_participacion_drawer">2000 Puntos</string>
+    <string name="nivel_drawer">Joven Destacado</string>
+    <string name="podium_drawer">5to Lugar</string>
+    <string name="idioma_adicional_español">Español</string>
+    <string name="idioma_adicional_ingles">Inglés</string>
+    <string name="idioma_adicional_frances">Francés</string>
+    <string name="idioma_adicional_italiano">Italiano</string>
+    <string name="idioma_adicional_aleman">Alemán</string>
+    <string name="idioma_adicional_chino">Chino</string>
+    <string name="idioma_adicional_totonaca">Totonaca</string>
+    <string name="btn_seleccionar_idiomas_aceptar">Aceptar</string>
+    <string name="btn_seleccionar_idiomas_cancelar">Cancelar</string>
+    <string name="seleccionar_idioma_porcentajes_nombre_idioma">Nombre idioma</string>
+    <string name="idioma_adicional_arabe">Árabe</string>
+    <string name="idioma_adicional_coreano">Coreano</string>
+    <string name="idioma_adicional_japones">Japonés</string>
+    <string name="idioma_adicional_polaco">Polaco</string>
+    <string name="idioma_adicional_portugues">Portugués</string>
+    <string name="idioma_adicional_ruso">Ruso</string>
+    <string name="idioma_adicional_otro">Otro</string>
+    <string name="idiomas_seleccionados_title">Idiomas seleccionados:</string>
+    <string name="bolsa_de_trabajo">Bolsa de trabajo</string>
+    <string name="consultar_curp">¿No conoces tu CURP?, ¡Consúltalo aquí!</string>
+    <string name="tv_empty_notificaciones">No se encontraron notificaciones</string>
+    <string name="tv_empty_convocatorias">No se encontraron convocatorias</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_empty_empresas">No se encontraron empresas</string>
+    <string name="nav_promociones">Promociones</string>
+    <string name="tv_nombre_empresa">Nombre empresa</string>
+    <string name="texview_empty_promociones">No se encontraron promociones</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="textview_promocion_url">URL</string>
+    <string name="textview_promocion_fechas">Fechas</string>
+    <string name="textview_promocion_codigo">Código</string>
+    <string name="texview_promocion_descripcion">Descripción</string>
+    <string name="textview_promocion_bases">Bases</string>
+    <string name="aplicar_promocion">Aplicar promoción</string>
+    <string name="editar_datoscambiar_imagen">Cambia tu imagen</string>
+    <string name="estoy_en_el_evento">Estoy en el evento</string>
+    <string name="me_interesa">Me interesa</string>
+    <string name="evento_ha_caducado">Este evento ha caducado</string>
+    <string name="aplicar_promocion_text">Aplicar promoción</string>
+</resources>

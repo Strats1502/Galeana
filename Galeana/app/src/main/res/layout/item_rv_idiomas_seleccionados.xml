@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="3dp">
+
+    <TextView
+        android:id="@+id/textview_nombre_idioma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="12sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textview_porcentaje_conversacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="12sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textview_porcentaje_lectura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="12sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textview_porcentaje_escritura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="12sp"
+        android:textAlignment="center" />
+
+    <ImageButton
+        android:id="@+id/btn_eliminar_idioma"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_eliminar"
+        android:layout_weight="1"
+        android:background="@null"/>
+
+</LinearLayout>

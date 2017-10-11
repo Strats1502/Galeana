@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/inicio"
+        android:titleCondensed="true">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item android:id="@+id/nav_home"
+                android:icon="@drawable/ic_home"
+                android:title="@string/home"
+                android:visible="false"/>
+            <item
+                android:id="@+id/nav_perfil"
+                android:icon="@drawable/ic_perfil"
+                android:title="@string/mi_perfil" />
+
+
+            <item
+                android:id="@+id/nav_codigo_guanajoven"
+                android:icon="@drawable/qr"
+                android:title="@string/id_guanajoven" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_sesion"
+                android:title="@string/cerrar_sesion"/>
+
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/actividades">
+        <menu>
+            <group android:checkableBehavior="single">
+
+
+                <item android:id="@+id/nav_mis_eventos"
+                    android:icon="@drawable/ic_calendar"
+                    android:title="@string/eventos"/>
+
+                <item
+                    android:id="@+id/nav_convocatorias"
+                    android:icon="@drawable/ic_convocatoria"
+                    android:title="@string/convocatorias" />
+
+                <item
+                    android:id="@+id/nav_promociones"
+                    android:icon="@drawable/ic_promociones"
+                    android:title="@string/nav_promociones"/>
+
+                <item
+                    android:id="@+id/nav_historial_notificaciones"
+                    android:icon="@drawable/ic_notifications"
+                    android:title="@string/notificaciones" />
+
+
+                <item
+                    android:id="@+id/nav_redes_sociales"
+                    android:icon="@drawable/social"
+                    android:title="@string/social" />
+
+
+                <item
+                    android:id="@+id/nav_chat_ayuda"
+                    android:icon="@drawable/chat_grey"
+                    android:title="@string/chat" />
+
+
+
+
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/general">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/nav_regiones"
+                    android:icon="@drawable/ic_regiones"
+                    android:title="@string/regiones"/>
+                <item
+                    android:id="@+id/nav_acerca_de"
+                    android:icon="@drawable/ayuda"
+                    android:title="@string/acerca_de" />
+
+
+            </group>
+        </menu>
+    </item>
+
+</menu>
